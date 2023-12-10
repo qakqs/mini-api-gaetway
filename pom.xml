@@ -7,8 +7,9 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-parent</artifactId>
-        <version>2.7.14</version>
+        <version>${spring-boot-parent-version}</version>
     </parent>
+
     <packaging>pom</packaging>
     <groupId>com.api</groupId>
     <artifactId>api-gateway</artifactId>
@@ -19,6 +20,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mini-api-verion>1.0.0</mini-api-verion>
+        <spring-boot-parent-version>2.7.14</spring-boot-parent-version>
     </properties>
 
     <dependencies>
